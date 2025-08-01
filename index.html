@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width = device-width , initial-scale= 1.0 "/>
+<title> YINKAPROF 
+	
+</title>
+<script src="jquery.min.js"></script>
+<script src="Yinka.js"></script>
+	
+</head>
+<body>
+	<p id="demo"></p>
+	
+	<script>
+		alert("Hello world");
+		var day;
+		switch(new Date().getDay()){
+         case 0:
+		      day ="Sunday";
+			  break;
+			  case 1:
+				day = "Monday";
+				break;
+				case 2:
+					day = "Tuesday";
+					break;
+					case 3:
+						day = "Wednesday";
+						break;
+						case 4:
+							day ="Thursday";
+							break;
+                          case 5:
+							day = "Friday";
+							break;
+							case 6:
+								day = "Saturday";
+			
+
+		document.getElementById('demo').innerHTML = "Today is " + day;
+         
+		}
+	</script>
+
+	<script>
+		var man = prompt("how are you?");
+        alert("i am good");
+		var good = prompt("Enter your name?");
+		alert("Welcome"+ ' '+ good);
+		var man1 = prompt("Are you ready to partner with us Yes/No?")
+		if (Yes){
+		alert("continue you surfing on our website!!!")
+		}
+        if (No){
+			alert("stop browsing on our website  because you are not eligible")
+		}
+	</script>
+	
+	<div class="Wrapper">
+		
+		<div class="header">
+			<p id="demo"></p>
+			<p id="dark"></p>
+			<script>
+				
+				document.getElementById("demo").innerHTML= Date().toString();
+	         var d = new Date();
+			  document.getElementById("dark").innerHTML = d.toDateString();
+			</script>
+			<style>
+			#slider{
+				overflow: hidden;
+			  }
+			
+			#slider figure {
+			
+				position: relative;
+				width: 800%;
+				margin: 0;
+				left: 0;
+				animation: 60s slider infinite;
+			}
+			#slider figure img {
+			  width:25%;
+			  float:left;
+			}
+			@keyframes slider {
+			  0% {
+				  left: 0;
+			  }
+			  20%{
+				  left: 0;
+			  }
+			  25%{
+				  left: -100%;
+			  }
+			  45%{
+				  left: -100%;
+			  }
+			  50%{
+	  
+				  left: -200%;
+			  }
+			  70%{
+				  left: -200%;
+			  }
+	  
+			  75%{
+				  left: -300%;
+			  }
+	  
+			  95%{
+				  left: -300%;
+			  }
+			  100%{
+				  left: -400%;
+			  }
+			}
+				</style>
+			
+		<div id="slider">
+		  <figure>
+	   <img src="images/img1.jpg" width="100%" height="400">
+	   <img src="images/img2.jpg" width="100%" height="400">
+	   <img src="images/img4.jpg" width="100%" height="400">
+	   
+		  </figure>
+		  </div>
+		</div>
+<style>
+	body{
+			background-color: antiquewhite;
+			width:100%;
+		}
+	.Wrapper{
+		border:1px solid #ff88cc;
+		width:100%;
+		height:100%;
+
+	}
+	.navbar{
+		
+		height:50%;
+		width:10%;
+		border:1px solid blanchedalmond; 
+	clear:both;
+	display:inline-block;
+	}
+	.container{
+		width:100%;
+		height:100%;
+		float:right;
+	}
+	.cont1{
+		width:30%;
+		height:20%;
+		float:left;
+		margin:10px;
+		overflow:auto;
+		padding:3px;
+	}
+	.cont2{
+		width:30%;
+		height:20%;
+		float:left;
+		margin:10px;
+		overflow:auto;
+		padding:3px;
+	}
+	.cont3{
+		width:30%;
+		height:20%;
+		float:left;
+		margin:10px;
+		overflow:auto;
+		padding:3px;
+	}
+	.cont4{
+		width:30%;
+		height:20%;
+		float:left;
+		margin:10px;
+		overflow:auto;
+		padding:3px;
+	}
+	.cont5{
+		width:30%;
+		height:20%;
+		float:left;
+		margin:10px;
+		overflow:auto;
+		padding:3px;
+	}
+	.cont6{
+		width:30%;
+		height:20%;
+		float:left;
+		margin:10px;
+		overflow:auto;
+		padding:3px;
+	}
+	.navbar ul{
+	
+		color:red;
+		background-color:rgb(232, 232, 235);
+		display:inline-block;
+
+	}
+	.navbar ul li{
+		float:left;
+		color:rgb(216, 212, 212);
+		background-color:rgb(232, 232, 235);
+		text-decoration:none;
+		margin:10px;
+		list-style-type:none;
+	}
+
+	.navbar ul li a{
+		float:left;
+		color:rgb(219, 30, 119);
+		text-decoration:none;
+	}
+
+	.navbar ul li a:hover{
+		float:left;
+		color:rgb(218, 227, 230);
+		background-color:#ff88cc;
+	}
+	.footer{
+		width:100%;
+		height:360px; 
+		background-color:rgba(0, 0, 0, 0.726);
+		 margin-top:20px;
+	}
+     
+
+</style>
+   <center>
+<div class="navbar">
+	<ul>
+<li> <a href="index.html"> HOME </a></li>
+<li> <a href="AboutUs.html"> ABOUT </a></li>
+<li> <a href="Product.html"> PRODUCT </a></li>
+<li> <a href="Contact.html"> CONTACT </a></li>
+
+
+	</ul>
+	
+</div>
+</center>
+<div class="container">
+	<img src="images/img1.jpg" width="100%" height="400" style="clear:both; float:right;" />
+<div class="cont1">
+<div class="thumbnail">
+	<p style="background-color:black; color:antiquewhite;">
+		You are <span style="color:rgb(219,30, 119);">highly welcome to yinkaprofessor </span> webApp, we are number one in Africa.
+
+	</p>
+</div>	
+</div>
+<div class="cont2">
+	<div class="thumbnail">
+		<p style="background-color:black; color:antiquewhite;">
+			You are <span style="color:rgb(219,30, 119);">highly welcome to yinkaprofessor </span> webApp, we are number one in Africa.
+	
+		</p>
+	</div>
+</div>
+<div class="cont3">
+	<div class="thumbnail">
+		<p style="background-color:black; color:antiquewhite;">
+			You are <span style="color:rgb(219,30, 119);">highly welcome to yinkaprofessor </span> webApp, we are number one in Africa.
+	
+		</p>
+	</div>
+	
+</div>
+<div class="cont4">
+	<div class="thumbnail">
+		<p style="background-color:black; color:antiquewhite;">
+			You are <span style="color:rgb(219,30, 119);">highly welcome to yinkaprofessor </span> webApp, we are number one in Africa.
+	
+		</p>
+	</div>
+</div>
+<div class="cont5">
+	<div class="thumbnail">
+		<p style="background-color:black; color:antiquewhite;">
+			You are <span style="color:rgb(219,30, 119);">highly welcome to yinkaprofessor </span> webApp, we are number one in Africa.
+	
+		</p>
+	</div>
+</div>
+<div class="cont6">
+	<div class="thumbnail">
+		<p style="background-color:black; color:antiquewhite;">
+			You are <span style="color:rgb(219,30, 119);">highly welcome to yinkaprofessor </span> webApp, we are number one in Africa.
+	
+		</p>
+	</div>
+</div>
+</div>
+
+<div class="footer" style="background-color: rgb(5, 5, 5);">
+	<div class="foot1" style= "float:left; background-color:rgb(7, 7, 7) ; color:rgb(219,30, 119); width:35%; height:100%; margin-left:10px;">
+		At Yinkaprofessor web, App development  and tutoring Company<br/>
+	  Our Courses are: <br/>
+	  * Web Design <br/>
+	  * web Development <br/>
+	  * Apps design and development <br/>
+	  * Programming , Computer Appreciation <br/>
+	  * Networking..... 
+
+
+	</div> 
+	
+	  
+	
+	<div class="foot2" style="float:right; background-color:black ; color:rgb(219,30, 119); width:35%; height:100%; float:right;">Programming languages we teaches are:<br/>
+	  * Javascript and JQuery<br/>
+	  * PHP(hypertext preprocessor) <br/>
+	  * Python and Javascript....still counting..... </div>
+	 <center><div class="foot3" style=" width:30%; height:230px; background-color:rgb(24, 23, 23) ; color:rgb(219,30, 119);">Ecommerce Website Developed by Yinkaprof, &copy; &reg; 2022 <a href="#">go to the top</a></div></center>
+</div>
+
+</div>
+
+</body>
+</html>
